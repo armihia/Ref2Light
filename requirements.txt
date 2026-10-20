@@ -1,0 +1,7 @@
+# Versions verified in c1train on 2026-10-19; install PyTorch separately for the target GPU.
+numpy==2.4.6
+Pillow==12.3.0
+mediapipe==1.0.1
+opencv-python==5.0.0.93
+pygame==2.6.1
+tqdm==4.70.1

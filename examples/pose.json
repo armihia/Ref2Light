@@ -1,0 +1,16 @@
+{
+  "headYawDeg": 10.0,
+  "headPitchDeg": 0.0,
+  "headRollDeg": 0.0,
+  "bodyYawDeg": 3.0,
+  "bodyPitchDeg": 0.0,
+  "bodyRollDeg": 0.0,
+  "eyesOpen": 1.0,
+  "mouthOpen": 0.75,
+  "mouthCurve": 0.8,
+  "browHeight": 0.0,
+  "browDistance": 0.0,
+  "browCurve": 0.0,
+  "gazeX": 0.0,
+  "gazeY": 0.0
+}
