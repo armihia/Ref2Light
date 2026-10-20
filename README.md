@@ -21,7 +21,11 @@ python -c "import torch; print(torch.__version__); print('CUDA:', torch.cuda.is_
 
 ## Model and third-party dependencies
 
-**Ref2Light model download: the maintainer will add the link after uploading the model.** Download the published `model/` folder and place it in the repository root, alongside `infer.py`. The approximately 225 MB `ref2light.pt` file contains the full-body network and all local generation branches.
+**Ref2Light model download:** [🤗 Hugging Face – Ref2Light](https://huggingface.co/armihia/Ref2Light)
+
+Download the pretrained model weights from Hugging Face and place `ref2light.pt` in the `model/` directory at the repository root, alongside `infer.py`.
+
+The approximately 225 MB `ref2light.pt` file contains the full-body network and all local generation branches.
 
 ```text
 Ref2Light/
