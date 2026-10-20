@@ -21,7 +21,11 @@ python -c "import torch; print(torch.__version__); print('CUDA:', torch.cuda.is_
 
 ## 模型与第三方依赖
 
-**Ref2Light 模型下载地址：待维护者上传后填写。** 下载维护者提供的 `model/` 文件夹，将其放到源码根目录，与 `infer.py` 同级。约 225 MB 的 `ref2light.pt` 包含全身和全部局部生成分支。
+**Ref2Light 预训练模型下载地址：** [🤗 Hugging Face – Ref2Light](https://huggingface.co/armihia/Ref2Light)
+
+从 Hugging Face 下载预训练模型权重 `ref2light.pt`，并将其放入源码根目录下的 `model/` 文件夹中，与 `infer.py` 位于同一级目录结构。
+
+约 225 MB 的 `ref2light.pt` 文件包含全身网络及全部局部生成分支。
 
 ```text
 Ref2Light/
@@ -35,7 +39,7 @@ Ref2Light/
 └── tools/download_preprocess.py
 ```
 
-正确位置是 `Ref2Light/model/ref2light.pt`，避免多套一层 `model/model/`。
+模型文件的正确路径为 `Ref2Light/model/ref2light.pt`，请勿额外嵌套一层 `model/model/` 目录。
 
 人脸定位和摄像头追踪使用 Google MediaPipe，其预训练模型需单独下载。在源码根目录执行：
 
